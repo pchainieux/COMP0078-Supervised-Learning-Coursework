@@ -1,10 +1,13 @@
 # COMP0078 Coursework
 
-This document provides an overview of the coursework submissions and detailed feedback for each component. Below, you will find the breakdown for Cw1 and Cw2.
+This document provides an overview of the coursework submissions and detailed feedback for each component. Below, you will find the breakdown for coursework 1 and 2.
 
 ---
 
-## Coursework 1 (Cw1)
+## Coursework 1
+
+**Coursework Overview**:
+The coursework starts with linear regression, fitting polynomial and sinusoidal basis functions, and explores over and under fitting via train/test curves and noise averaged studies. Next is a problem on kernel ridge regression on the Boston housing dataset using Gaussian kernels and cross validation to select hyperparameters and compare against baseline and single feature models. Finally is the implementation of k-Nearest Neighbors, visualising its decision regions, studying how generalisation error varies with _k_ and training set size, and  deriving theoretical guarantees.
 
 **Overall Grade:** 95.00 / 100.00
 
@@ -38,7 +41,10 @@ This document provides an overview of the coursework submissions and detailed fe
 
 ---
 
-## Coursework 2 (Cw2)
+## Coursework 2 
+
+**Coursework Overview**:
+In Part I, I prove Rademacher complexity bounds for finite hypothesis spaces with logarithmic dependence on sample size. Part II covers Bayes decision rules and surrogate loss frameworks (squared, exponential, logistic, hinge), establishing Fisher consistency and comparison inequalities. Part III is a kernel perceptron project, where I implement one-vs-rest and one-vs-one classifiers on hand written digit data, experiment with polynomial and Gaussian kernels (including cross-validation and confusion-matrix analysis), and visualise the most challenging samples to predict.
 
 **Overall Grade:** 100.00 / 100.00
 
